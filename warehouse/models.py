@@ -11,3 +11,10 @@ class Product(models.Model):
     code  = models.PositiveIntegerField()
     name  = models.CharField(max_length=35)
     price = models.PositiveIntegerField()
+
+class Customer(models.Model):
+
+    code = models.PositiveIntegerField()
+    name = models.CharField(max_length=35)
+    tel  = models.CharField(max_length=35)
+    address = models.CharField(max_length=1000)
