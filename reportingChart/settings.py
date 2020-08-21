@@ -25,7 +25,7 @@ SECRET_KEY = 'i@g4_*exp2!+zabdt2w*muukum+bi9#8yh=g@stm!0x)f9^=gc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['excelchanger.pythonanywhere.com','']
 
 
 # Application definition
